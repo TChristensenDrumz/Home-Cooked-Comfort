@@ -10,38 +10,31 @@
     <!--fontawesome icons-->
     <link rel="stylesheet" href="https://use.fontawesome.com/releases/v5.8.1/css/all.css" integrity="sha384-50oBUHEmvpQ+1lW4y57PTFmhCaXp0ML5d60M1M7uH2+nqUivzIebhndOJK28anvf" crossorigin="anonymous" />
     <!--google fonts!-->
-      <!--get cute font!-->    
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">    
     <!-- css link -->
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">    
-    <a class="navbar-brand" href="#">Home Cooked Comfort</a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
+  <nav class="navbar navbar-expand-lg">   
+    <a class="navbar-brand" href="#"> <i class="fas fa-egg"></i>  Home Cooked Comfort  <i class="fas fa-cheese"></i> </a>     
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
+      <div class="navbar-nav ml-auto">
       <!-- Bolds the text of the current page -->
-
         <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
         <a class="nav-item nav-link" href="#">About Us</a>
         <a class="nav-item nav-link" href="#">Recipes</a>
-      
+
       </div>
     </div>
   </nav>
   <!--end nav bar-->
 
 
-  <!-- Container for main features -->
-  <div class="container" id="mainfeatures">           
-    
-    
+  <!-- main features -->
     <!-- Row 1 --> 
     <div class="row" id="search">                        
       
@@ -51,7 +44,9 @@
         <!-- Create check boxes with other parameters -->       
         <div class="card">
           <div class="card-body search-card">
-            <h5>Search Box Title<h5>
+            <br>
+            <h4>Search Box Title</h4>
+            <br>
 
         <!-- Create input for search -->
             <div class="input-group mb-3">
@@ -59,7 +54,7 @@
               </div>
               <input type="text" class="form-control" placeholder="">
             </div>
-
+            <br>
         <!-- Create dropdown with allergen parameters, from API? -->
         <!-- Create check boxes with other parameters -->
         
@@ -70,6 +65,7 @@
                 <p>Checkbox 1</p>
               </label>
             </div>
+            
 
         <!-- Checkbox 2 -->
             <div class="form-check">
@@ -78,6 +74,7 @@
                 <p>Checkbox 2</p>
               </label>
             </div>
+            
 
         <!-- Checkbox 3 -->
             <div class="form-check">
@@ -86,6 +83,7 @@
                 <p>Checkbox 3</p>
               </label>
             </div>
+            
 
         <!-- Checkbox 4 -->
             <div class="form-check">
@@ -94,34 +92,48 @@
                 <p>Checkbox 4</p>
               </label>
             </div>
+            <br>
         <!-- Create search button -->
           <button class="btn btn-outline-secondary" type="button" id="button-addon1">Search</button>
         </div>
       </div>  
-      </div> 
-      <!--col 1 end-->
-    
-      <!-- Column 2 -->
-      <div class="col-md-9">
+    </div>
+    <!-- Column 2 -->
+    <div class="col-md-9 mx-auto" id="textbox">
+      
+      <p class="title"><strong>Home Cooked Comfort</strong></p>
+      
       <!-- Create Textbox for 'About Us' -->          
-        <div class="card">
-          <div class="card-body landing-about-us">
+        
+        <div class="card" id="aboutcard">
+          <div class="card-body landing-about-us" id="about">
             <h3>A Time for Giving Thanks</h3>
+            <br>
             <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non aliquam ratione possimus quae ipsa consequuntur ullam, assumenda nisi officiis nam laboriosam placeat dolorum sapiente at cumque harum magnam deleniti voluptatem aut veniam nostrum? Assumenda sed at maiores itaque odio dignissimos laborum, labore nisi, doloribus, molestiae ducimus aperiam architecto nostrum a eveniet voluptatem tenetur illum eligendi nihil ipsam sit quisquam. Nemo cupiditate ex cumque, unde dolorem alias, laboriosam recusandae tempora officia delectus ipsam officiis voluptatibus esse cum. Ad ipsam qui error deserunt rerum, nam dolor provident fugit nulla earum, adipisci blanditiis unde repudiandae voluptates ipsa culpa ipsum laudantium obcaecati doloribus repellendus itaque. Beatae praesentium itaque distinctio, dolorum dignissimos quae quia perferendis quasi! Laboriosam, cumque odio accusamus nulla voluptatibus deleniti nisi sunt adipisci natus incidunt cum. Alias magni, nobis quia accusantium odio quasi ullam id totam dignissimos iure voluptate laudantium nulla cumque placeat in? Dolore, nihil. Cumque magnam ut sint inventore fugiat.</p>
           </div>          
         </div>
-      </div>
-      <!--Column 2 end-->
     </div>
-    <!--row 1 end-->   
+       
 
     <!-- Row 2 -->
-    <div class="row" id="2">
+    <div class="row" id="row2">
+      
+      <!-- Column 1 -->  
+      <!--popular recipes-->
 
-      <!-- Column 1 -->
       <div class="col-md-3">
+        <h4>Popular Recipes Right Now!</h4>
         <!-- Create card/container for 'Popular Recipes' -->
-        <!-- Will this use another API to pull popular recipes from the web? -->     
+        <div class="card" id="popular"> 
+          <ul class="pop">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>       
+      
+          <!-- Will this use another API to pull popular recipes from the web? -->
+        </div>         
       </div> 
 
       <!-- Column 2 -->  
@@ -131,6 +143,7 @@
         <div class="card">
           <div class="card-body giphy-image1"></div>
         </div>
+      </div>
 
         <!--gif 2-->
         <div class="card">
@@ -139,15 +152,19 @@
       </div>
       <!--end column 2 (giphy)-->
     </div>
-    <!--end row 2-->   
-
-    <!-- Create 'Info Footer' -->
-    <div class="footer">
-      <i class="fas fa-utensils"></i>  made with love (and hungry bellies)  <i class="far fa-heart"></i> 
-    </div>
-    <!--footer end-->
+    <!--end row 2-->
 
   </div>
+
+
+
+    <!-- Create 'Info Footer' -->
+    <footer class="footer">
+      <i class="fas fa-utensils"></i>  made with love (and hungry bellies)  <i class="far fa-heart"></i> 
+    </footer>
+    <!--footer end-->
+
+  
       
   <!--script links!-->
   <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
