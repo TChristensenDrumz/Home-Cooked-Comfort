@@ -16,48 +16,114 @@
     />
 
     <!--google fonts!-->
+    <link rel="preconnect" href="https://fonts.gstatic.com">
+    <link href="https://fonts.googleapis.com/css2?family=Montserrat:wght@300;400;500;700&display=swap" rel="stylesheet">
     
     <!-- css file -->
     <link rel="stylesheet" href="style.css" />
 </head>
 
 <body>
-
     <!-- Nav Bar -->
 
-  <nav class="navbar navbar-expand-lg navbar-light bg-light">    
-    <a class="navbar-brand" href="/index.html">Home Cooked Comfort</a>
-
-      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarNavAltMarkup" aria-controls="navbarNavAltMarkup" aria-expanded="false" aria-label="Toggle navigation">
-          <span class="navbar-toggler-icon"></span>
-      </button>
-
-    <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
-      <div class="navbar-nav">
-        <a class="nav-item nav-link" href="/index.html">Home</a>
+    <nav class="navbar navbar-expand-lg">   
+      <a class="navbar-brand" href="#"> <i class="fas fa-egg"></i> Home Cooked Comfort <i class="fas fa-cheese"></i> </a>     
+  
+      <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
+        <div class="navbar-nav ml-auto">
         <!-- Bolds the text of the current page -->
-        <a class="nav-item nav-link active" href="/about_us.html">About Us <span class="sr-only">(current)</span></a>
-        <a class="nav-item nav-link" href="/Results_Page.html">Recipes</a>      
-      </div>
-    </div>
+          <a class="nav-item nav-link active" href="#">Home <span class="sr-only">(current)</span></a>
+          <a class="nav-item nav-link" href="#">About Us</a>
+          <a class="nav-item nav-link" href="#">Recipes</a>
+  
+        </div>
 
-  </nav>
+      </div>
+    </nav>
+    <!--end nav bar-->
+
+    <div class="row" id="search">                        
+      
+      <!-- Column 1 -->
+      <div class="col-md-3" id="row1">
+
+        <!-- Create check boxes with other parameters -->       
+        <div class="card">
+          <div class="card-body search-card">
+            <br>
+            <h4>Search Box Title</h4>
+            <br>
+
+        <!-- Create input for search -->
+            <div class="input-group mb-3">
+              <div class="input-group-prepend search-input">
+              </div>
+              <input type="text" class="form-control" placeholder="">
+            </div>
+            <br>
+        <!-- Create dropdown with allergen parameters, from API? -->
+        <!-- Create check boxes with other parameters -->
+        
+        <!-- Checkbox 1 -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Checkbox 1</p>
+              </label>
+            </div>
+            
+
+        <!-- Checkbox 2 -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Checkbox 2</p>
+              </label>
+            </div>
+            
+
+        <!-- Checkbox 3 -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Checkbox 3</p>
+              </label>
+            </div>
+            
+
+        <!-- Checkbox 4 -->
+            <div class="form-check">
+              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+              <label class="form-check-label" for="defaultCheck1">
+                <p>Checkbox 4</p>
+              </label>
+            </div>
+            <br>
+        <!-- Create search button -->
+          <button class="btn btn-outline-secondary" type="button" id="button-addon1">Search</button>
+        </div>
+      </div>
+    </div>  
+    
 
   <!--container that holds a card for each of us-->
 
-  <div class="container" id= "ourinfo">    
+
+  <div class="col-md-9" id= "ourinfo">
+    
+
     <!--card for terrapin (photo, brief about info (hobbies, history w cooking), link to favorite recipe -->
 
-    <div class="card" id="Terrapin" style="width: 18rem;">
+    <div class="card" id="us">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Terrapin Christensen</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">cooking history/hobbies</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">fav drink</li>
+          <li class="list-group-item">fav food</li>
+          <li class="list-group-item">fav dessert</li>
         </ul>
         <div class="card-body">
           <a href="#" class="card-link">fav recipe link</a>
@@ -67,16 +133,17 @@
 
     <!--card for tammy (photo, brief about info (hobbies, history w cooking), link to favorite recipe -->
 
-    <div class="card" id="Tammy" style="width: 18rem;">
-        <img src="..." class="card-img-top" alt="Tammy">
+    <div class="card" id="us" >
+        <img src="..." class="card-img-top" alt="...">
+
         <div class="card-body">
           <h5 class="card-title">Tammy Nguyen</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">cooking history/hobbies</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">fav drink</li>
+          <li class="list-group-item">fav food</li>
+          <li class="list-group-item">fav dessert</li>
         </ul>
         <div class="card-body">
           <a href="#" class="card-link">fav recipe link</a>
@@ -86,16 +153,16 @@
 
     <!--card for andrew (photo, brief about info (hobbies, history w cooking), link to favorite recipe -->
     
-    <div class="card" id="Drew" style="width: 18rem;">
+    <div class="card" id="us">
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Andrew Jefferson</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">cooking history/hobbies</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">fav drink</li>
+          <li class="list-group-item">fav food</li>
+          <li class="list-group-item">fav dessert</li>
         </ul>
         <div class="card-body">
           <a href="#" class="card-link">fav recipe link</a>
@@ -105,30 +172,32 @@
 
     <!--card for ak (photo, brief about info (hobbies, history w cooking), link to favorite recipe -->
     
-    <div class="card" id="ak" style="width: 18rem;">
+    <div class="card" id="us" >
         <img src="..." class="card-img-top" alt="...">
         <div class="card-body">
           <h5 class="card-title">Alex Kelly</h5>
-          <p class="card-text">Some quick example text to build on the card title and make up the bulk of the card's content.</p>
+          <p class="card-text">cooking history/hobbies</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">Cras justo odio</li>
-          <li class="list-group-item">Dapibus ac facilisis in</li>
-          <li class="list-group-item">Vestibulum at eros</li>
+          <li class="list-group-item">fav drink</li>
+          <li class="list-group-item">fav food</li>
+          <li class="list-group-item">fav dessert</li>
         </ul>
         <div class="card-body">
           <a href="#" class="card-link">fav recipe link</a>
           <a href="#" class="card-link">github link</a>
         </div>
-      </div>
+    </div>
 
   </div>
+
+</div>
 
   <!--footer-->
 
-  <div class="footer">
+  <footer class="footer">
     <i class="fas fa-utensils"></i>  made with love (and hungry bellies)  <i class="far fa-heart"></i> 
-  </div>
+  </footer>
 
    <!--script links!-->
    <script src="https://code.jquery.com/jquery-3.5.1.slim.min.js" integrity="sha384-DfXdz2htPH0lsSSs5nCTpuj/zy4C+OGpamoFVy38MVBnE+IbbVYUew+OrCXaRkfj" crossorigin="anonymous"></script>
