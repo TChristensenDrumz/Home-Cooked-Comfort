@@ -25,3 +25,21 @@ function init(){
         });
     }
 }
+
+for(let i = 0; i < 5; i++){
+    $.ajax({
+        url: "https://www.themealdb.com/api/json/v1/1/random.php",
+        method: "GET"
+    }).then(function(response){
+        console.log(response);
+        if(response.meals[0].strSource !== ""){
+            var newListItem = $("<li>");
+            var newATag = $("<a>").attr("href", response.meals[0].strSource).text(response.meals[0].strMeal);
+            $(newListItem).append(newATag);
+            $(".pop").append(newListItem);
+        }
+        else {
+            i--;
+        }
+    })
+}
