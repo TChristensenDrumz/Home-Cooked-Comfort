@@ -64,6 +64,13 @@ body {
 
 }
 
+#gifs {
+    width: auto;
+    height: auto;
+    float: left;
+    margin-left: 10%;
+}
+
 #row2 {
     margin: 0% auto;
     margin-bottom: 1%;
