@@ -18,9 +18,8 @@
 
 <body>
   <!-- Nav Bar -->
-  <nav class="navbar navbar-expand-lg">    
-
-    <a class="navbar-brand" href="#">Home Cooked Comfort</a>     
+  <nav class="navbar navbar-expand-lg">   
+    <a class="navbar-brand" href="#"> <i class="fas fa-egg"></i> Home Cooked Comfort <i class="fas fa-cheese"></i> </a>     
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
       <div class="navbar-nav ml-auto">
@@ -118,9 +117,28 @@
 
     <!-- Row 2 -->
     <div class="row" id="row2">
+      
       <!-- Column 1 -->  
+      <!--popular recipes-->
+
+      <div class="col-md-3">
+        <h4>Popular Recipes Right Now!</h4>
+        <!-- Create card/container for 'Popular Recipes' -->
+        <div class="card" id="popular"> 
+          <ul class="pop">
+            <li>1</li>
+            <li>2</li>
+            <li>3</li>
+            <li>4</li>
+          </ul>       
+      
+          <!-- Will this use another API to pull popular recipes from the web? -->
+        </div>         
+      </div> 
+
+      <!-- Column 2 --> 
       <!--gif 1-->
-      <div class="col-md-6" id="giphy">     
+      <div class="col-md-4" id="giphy">     
         <div class="card" id="gif1">
           <div class="card-body giphy-image1">
             GIPHY IMAGE HERE
@@ -131,9 +149,9 @@
         </div>
       </div>
 
-      <!--Column 2-->
+      <!--Column 3-->
       <!--gif 2-->
-      <div class="col-md-6" id="giphy">
+      <div class="col-md-4" id="giphy">
         <div class="card" id="gif2">
           <div class="card-body giphy-image2">
             GIPHY IMAGE HERE
@@ -147,29 +165,14 @@
     </div>
     <!--end row 2-->
 
-    <!--Row 3-->
-
-    <div class="row" id="row3">
-      <!-- Column 1 -->
-      <div class="col-md-12">
-        <h4>Popular Recipes Right Now!</h4>
-        <!-- Create card/container for 'Popular Recipes' -->
-        <div class="card" id="popular"> 
-          popular recipe card         
-          <!-- Will this use another API to pull popular recipes from the web? -->
-        </div>         
-      </div> 
-    </div> 
-
-    <!--End Row 3-->
   </div>
 
 
 
     <!-- Create 'Info Footer' -->
-    <div class="footer">
+    <footer class="footer">
       <i class="fas fa-utensils"></i>  made with love (and hungry bellies)  <i class="far fa-heart"></i> 
-    </div>
+    </footer>
     <!--footer end-->
 
   
