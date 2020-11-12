@@ -24,7 +24,7 @@ body {
     color: whitesmoke;
     margin: 10%;
     margin-top: 10%;
-    border-radius: 15px 50px 30px 5px;
+    border-radius: 15px 50px 30px;
 }
 
 .card {
@@ -54,27 +54,33 @@ body {
 
 }
 
+#recipe {
+    float: left;
+    margin-left: 3%;
+    margin-top: -20%;
+}
+
 
 #popular {
     background-color: #363030;
     color: whitesmoke;
     text-align: center;
-    padding: 10%;
+    padding: 5%;
     border-radius: 15px 50px 30px;    
 
 }
+
 
 #gifs {
     width: auto;
     height: auto;
     float: left;
-    margin-left: 10%;
+    margin: auto;
 }
 
 #row2 {
     margin: 0% auto;
-    margin-bottom: 1%;
-    width: 98%;
+    width: auto;
     background-color: transparent;
     text-align: center;
 }
