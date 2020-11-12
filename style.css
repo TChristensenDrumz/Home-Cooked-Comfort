@@ -1,0 +1,105 @@
+body {
+    background-color: transparent;
+    background-image: url(https://images.creativemarket.com/0.1.0/ps/4648287/910/1214/m2/fpnw/wm1/minlajjev6itkaiuxzejul6zh37nigl35tbs9qmqwhqisugcspk6tfcxzyzwqlpy-.jpg?1529747059&s=4878e25ade33df1b640b4a57258c7f10);
+    background-size: cover;
+    font-family: 'Montserrat', sans-serif;
+}
+
+.navbar {
+    background-color: #363030;    
+}
+
+.navbar-brand,
+.nav-item {
+    color: whitesmoke;
+}
+
+.search-card {
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: #363030;
+    color: whitesmoke;
+    margin: 10%;
+    margin-top: 10%;
+}
+
+.card {
+    background-color: transparent;    
+}
+
+.title {
+    font-size: 70px;
+    text-align: center;
+}
+
+#textbox {
+    padding: 2%;
+}
+
+
+#aboutcard{
+    width: 80%;
+    font-size: 20px;
+    text-align: center;
+    background-color: #363030;
+    color: whitesmoke;
+    margin: 0px auto;
+
+}
+
+#row3 {
+    width: 80%;
+    padding: 2%;
+    margin: 0% auto;
+    margin-bottom: 5%;
+    background-color: #363030;
+    color: whitesmoke;
+    text-align: center;
+}
+
+#popular {
+    margin: 0px auto;
+    background-color: #363030;
+
+}
+
+#row2 {
+    margin: 0% auto;
+    width: 80%;
+    background-color: transparent;
+}
+
+#gif1 {
+    margin-top: 0%;
+    align-items: center;
+
+}
+
+#gif2 {
+    margin-top:0%;
+    align-items: center;
+}
+
+#ourinfo {
+
+}
+
+#terrapin,
+#tammy,
+#drew,
+#ak {
+
+}
+
+.footer {
+
+    text-align: center;
+    background-color: #363030;
+    color: whitesmoke;
+    margin-bottom: 0px;
+    font-size: 20px;
+
+
+}
