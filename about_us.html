@@ -41,102 +41,38 @@
       </div>
     </nav>
     <!--end nav bar-->
-
-    <div class="row" id="search">                        
-      
-      <!-- Column 1 -->
-      <div class="col-md-3" id="row1">
-
-        <!-- Create check boxes with other parameters -->       
-        <div class="card">
-          <div class="card-body search-card">
-            <br>
-            <h4>Search Box Title</h4>
-            <br>
-
-        <!-- Create input for search -->
-            <div class="input-group mb-3">
-              <div class="input-group-prepend search-input">
-              </div>
-              <input type="text" class="form-control" placeholder="">
-            </div>
-            <br>
-        <!-- Create dropdown with allergen parameters, from API? -->
-        <!-- Create check boxes with other parameters -->
-        
-        <!-- Checkbox 1 -->
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Checkbox 1</p>
-              </label>
-            </div>
-            
-
-        <!-- Checkbox 2 -->
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Checkbox 2</p>
-              </label>
-            </div>
-            
-
-        <!-- Checkbox 3 -->
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Checkbox 3</p>
-              </label>
-            </div>
-            
-
-        <!-- Checkbox 4 -->
-            <div class="form-check">
-              <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Checkbox 4</p>
-              </label>
-            </div>
-            <br>
-        <!-- Create search button -->
-          <button class="btn btn-outline-secondary" type="button" id="button-addon1">Search</button>
-        </div>
-      </div>
-    </div>  
-    
-
+   
   <!--container that holds a card for each of us-->
   
-
-  <div class="col-md-9" id= "ourinfo">
-
+  <div class="container" id="ourinfo">
+    <div class="row" id="ourcards">
     <!--card for terrapin (photo, brief about info (hobbies, history w cooking), link to favorite recipe -->
-
-    <div class="card" id="us">
-        <img src="..." class="card-img-top" alt="...">
-        <div class="card-body">
-          <h5 class="card-title">Terrapin Christensen</h5>
-          <p class="card-text">cooking history/hobbies</p>
-        </div>
-        <ul class="list-group list-group-flush">
-          <li class="list-group-item">fav drink</li>
-          <li class="list-group-item">fav food</li>
-          <li class="list-group-item">fav dessert</li>
-        </ul>
-        <div class="card-body">
-          <a href="#" class="card-link">fav recipe link</a>
-          <a href="#" class="card-link">github link</a>
-        </div>
+    <div class="col-md-6">
+      <div class="card" id="us">
+          <img src="https://ca.slack-edge.com/T01C8L6GK9Q-U01CWJ19YBT-f614b873e04d-512" class="card-img-top" alt="terrapin">
+          <div class="card-body">
+            <h4 class="card-title">Terrapin Christensen</h4>
+            <p class="card-text">cooking history/hobbies</p>
+          </div>
+          <ul class="list-group list-group-flush">
+            <li class="list-group-item">fav drink</li>
+            <li class="list-group-item">fav food</li>
+            <li class="list-group-item">fav dessert</li>
+          </ul>
+          <div class="card-body">
+            <a href="mailto:TChristensenDrumz/"> Email </a>
+            <br>
+            <a href="https://github.com/luvwitch" class="card-link">Github</a>
+          </div>
+      </div>
     </div>
-
     <!--card for tammy (photo, brief about info (hobbies, history w cooking), link to favorite recipe -->
-
+    <div class="col-md-6">
     <div class="card" id="us" >
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://ca.slack-edge.com/T01C8L6GK9Q-U01CJ2RNT5G-0eb7c457a8d0-512" class="card-img-top" alt="tammy">
 
         <div class="card-body">
-          <h5 class="card-title">Tammy Nguyen</h5>
+          <h4 class="card-title">Tammy Nguyen</h4>
           <p class="card-text">cooking history/hobbies</p>
         </div>
         <ul class="list-group list-group-flush">
@@ -145,17 +81,18 @@
           <li class="list-group-item">fav dessert</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">fav recipe link</a>
-          <a href="#" class="card-link">github link</a>
+          <a href="mailto:"> Email </a>
+          <br>
+          <a href="https://github.com/ttngu" class="card-link">Github</a>
         </div>
     </div>
-
+    </div>
     <!--card for andrew (photo, brief about info (hobbies, history w cooking), link to favorite recipe -->
-    
+    <div class="col-md-6">
     <div class="card" id="us">
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://ca.slack-edge.com/T01C8L6GK9Q-U01CRGC3CRY-a3fbf16cbb1e-512" class="card-img-top" alt="andrew">
         <div class="card-body">
-          <h5 class="card-title">Andrew Jefferson</h5>
+          <h4 class="card-title">Andrew Jefferson</h4>
           <p class="card-text">cooking history/hobbies</p>
         </div>
         <ul class="list-group list-group-flush">
@@ -164,33 +101,39 @@
           <li class="list-group-item">fav dessert</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">fav recipe link</a>
-          <a href="#" class="card-link">github link</a>
+          <a href=""> Email </a>
+          <br>
+          <a href="https://github.com/-" class="card-link">Github</a>
         </div>
     </div>
-
+    </div>
     <!--card for ak (photo, brief about info (hobbies, history w cooking), link to favorite recipe -->
-    
+    <div class="col-md-6">
     <div class="card" id="us" >
-        <img src="..." class="card-img-top" alt="...">
+        <img src="https://ca.slack-edge.com/T01C8L6GK9Q-U01CB7DUVHC-004ce97cdf8f-512" class="card-img-top" alt="ak">
         <div class="card-body">
-          <h5 class="card-title">Alex Kelly</h5>
-          <p class="card-text">cooking history/hobbies</p>
+          <h4 class="card-title">Alex Kelly</h4>
+          <p class="card-text">I grew up cooking with my Oma which imparted a strong connection of food to family, culture, and history. Our family cookbook goes back 4 generations!
+          It's been fun and challenging to take these recipes and make them my own with a vegan twist.</p>
         </div>
         <ul class="list-group list-group-flush">
-          <li class="list-group-item">fav drink</li>
-          <li class="list-group-item">fav food</li>
-          <li class="list-group-item">fav dessert</li>
+          <li class="list-group-item">Favorite Drink: Rose Latte</li>
+          <li class="list-group-item">Favorite Food: Miso soup</li>
+          <li class="list-group-item">Favorite Dessert: Creme Brûlée</li>
         </ul>
         <div class="card-body">
-          <a href="#" class="card-link">fav recipe link</a>
-          <a href="#" class="card-link">github link</a>
+
+          <a href="mailto:itsalexkelly@gmail.com"> Email </a>
+          <br>
+          <a href="https://github.com/luvwitch" class="card-link">Github</a>
+          
         </div>
+    </div>
     </div>
 
   </div>
+  </div>
 
-</div>
 
   <!--footer-->
 
