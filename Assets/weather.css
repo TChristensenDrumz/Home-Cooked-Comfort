@@ -1,0 +1,79 @@
+
+button{
+    width: 70px;
+    height: auto;
+    background-color: #ff9f43;
+    border: none;
+    border-radius: 5px;
+    transition-duration: .4s;
+}
+
+button:hover {
+    background-color: #feca57;
+}
+
+button:focus {
+    border: none;
+    outline-color: #b2bec3;
+}
+
+h1 {
+    color: white;
+}
+
+h2 {
+    color: rgb(133, 7, 7);   
+}
+
+p, h3 {
+    color: rgb(0, 0, 0);   
+}
+
+.container {
+    background-color: #75757afa;
+    border: solid 5px #f5f5f5;
+    max-width: 25%;
+    height: 100%;
+}
+
+.search {
+    padding: 0 0 0 30px;
+}
+
+.forecast {
+    margin-top: 25px;
+    max-width: 100%;
+    padding-left: 30px;
+}
+
+img {
+    width: auto;
+    height: auto;
+}
+
+input {
+    height: 30px;
+    width: auto;
+}
+
+.row {
+    display: flex;
+    line-height: 50%;
+    margin: 5px 5px 5px 0px;
+}
+
+.row * {
+    margin-right: 5px;
+}
+
+/*
+  The width of the wrapper will be 1024px
+  at browser widths above 768px
+*/
+.wrapper {
+    /* Box-model */
+    width: 1024px;
+  
+    /* Positioning */
+    margin: 40px auto;
+  }
