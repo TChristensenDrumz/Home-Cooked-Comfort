@@ -20,7 +20,7 @@
   <!-- Nav Bar -->
   <nav class="navbar navbar-expand-lg">          
 
-    <a class="navbar-brand" href="./index.html"> <i class="fas fa-egg"></i>  Home Cooked Comfort  <i class="fas fa-cheese"></i> </a>     
+    <a class="navbar-brand" href="./index.html"> <i class="fas fa-egg" style="color: white;"></i>  Home Cooked Comfort  <i class="fas fa-cheese" style="color: #fad37c;"></i> </a>     
 
 
     <div class="collapse navbar-collapse" id="navbarNavAltMarkup">
@@ -35,106 +35,102 @@
   </nav>
   <!--end nav bar-->
 
-
   <!-- main features -->
-    <!-- Row 1 --> 
-    <div class="row" id="search">                        
+
+  <!-- Row 1 --> 
+  <div class="row" id="main">                       
+     
+    <!-- Column 1 -->
+    <div class="col-md-3" id="row1">
+
+      <div class="card" id="random">
+        <h4>Try Out These Cool Recipes!</h4>
+        <br>
+        <ul class="pop"></ul>            
+      </div>
+
+      <br>
+      <br>
+
+      <div class="card">
+        <div class="card-body weather-card">
+          <br>
+          <h4>Weather Today</h4>
+          <br>        
+          <br>
+        </div>                  
+      </div>
       
-      <!-- Column 1 -->
-      <div class="col-md-3" id="row1">
-
-        <!-- Create check boxes with other parameters -->       
-        <div class="card">
-          <div class="card-body search-card">
-            <br>
-            <h4>Weather Today</h4>
-            <br>
-        
-            <br>                  
-        </div>
-      </div>           
-    </div>
+    </div>  
+    
+    <!--Column 2-->
  
-
-    <!-- Column 2 -->
     <div class="col-md-9 mx-auto" id="textbox">
       
-      <p class="title"><strong>Home Cooked Comfort</strong></p>
+      <p class="title">Home Cooked Comfort</p>
       
-      <!-- Create Textbox for 'About Us' -->          
+      <!-- Textbox for 'About Website Info' -->          
         
-        <div class="card" id="aboutcard">
-          <div class="card-body landing-about-us" id="about">
-            <h3>A Time for Giving Thanks</h3>
-            <br>
-            <p>Lorem ipsum, dolor sit amet consectetur adipisicing elit. Non aliquam ratione possimus quae ipsa consequuntur ullam, assumenda nisi officiis nam laboriosam placeat dolorum sapiente at cumque harum magnam deleniti voluptatem aut veniam nostrum? Assumenda sed at maiores itaque odio dignissimos laborum, labore nisi, doloribus, molestiae ducimus aperiam architecto nostrum a eveniet voluptatem tenetur illum eligendi nihil ipsam sit quisquam. Nemo cupiditate ex cumque, unde dolorem alias, laboriosam recusandae tempora officia delectus ipsam officiis voluptatibus esse cum. Ad ipsam qui error deserunt rerum, nam dolor provident fugit nulla earum, adipisci blanditiis unde repudiandae voluptates ipsa culpa ipsum laudantium obcaecati doloribus repellendus itaque. Beatae praesentium itaque distinctio, dolorum dignissimos quae quia perferendis quasi! Laboriosam, cumque odio accusamus nulla voluptatibus deleniti nisi sunt adipisci natus incidunt cum. Alias magni, nobis quia accusantium odio quasi ullam id totam dignissimos iure voluptate laudantium nulla cumque placeat in? Dolore, nihil. Cumque magnam ut sint inventore fugiat.</p>
-          </div>          
-        </div>
-    </div>
-
-    <div class="row" id="recipe">
-      <div class="col-md-12">        
-        <!-- Create card/container for 'Popular Recipes' -->
-        <div class="card" id="popular">
-          <h4>Try Out These Cool Recipes!</h4>
+      <div class="card" id="aboutcard">
+        <div class="card-body landing-about" id="about">
+          <h2>A Time for Giving Thanks</h2>
           <br>
-          <ul class="pop"></ul>       
-      
-          <!-- Will this use another API to pull popular recipes from the web? -->
-        </div>         
+          <p> Love to cook? Not sure what to make? Let us help! </p>
+          <br>
+          <p> Check out recipes from across the web two ways: </p>
+          <p> Our cool recipe feature offers an array of different recipes. Try making something you've never heard of!</p>
+          <p> In the mood for an old favorite? Head to the recipes page and search for that something special! Dietary restrictions?
+            No problem! Use our handy checkboxes to filter your results to your preferences and needs.
+          </p>
+          <br>
+          <p> Happy cooking!</p>
+          <i class="fas fa-heart" style="color: #c05a46"></i>
+          
+        </div>          
       </div>
 
+    </div>  
+  </div>   
 
-    </div>
-
-       
-
-    <!-- Row 2 -->
-    <div class="row" id="row2">
       
-      <!-- Column 1 -->   
-      <div class="col-md-12" id="gifhub">
-        <!--2 side by side containers for GIPHY random food photos -->        
-        <!--gif 1-->
-
-        <div class="card" id="gifs">
-          <div class="card-body giphy-image"></div>
-        </div>
+  <!-- Row 2 -->
+  <div class="row" id="row2">      
+   
+      <!--side by side containers for GIPHY random food photos -->        
+      
+      <!--gif 1-->
+      <div class="card" id="gifs">
+        <div class="card-body giphy-image"></div>
+      </div>
       
 
-        <!--gif 2-->
-        <div class="card" id="gifs">
-          <div class="card-body giphy-image"></div>
-        </div> 
+      <!--gif 2-->
+      <div class="card" id="gifs">
+        <div class="card-body giphy-image"></div>
+      </div> 
 
-       <!--gif 3-->
-        <div class="card" id="gifs">
-          <div class="card-body giphy-image"></div>
-        </div>
+      <!--gif 3-->
+      <div class="card" id="gifs">
+        <div class="card-body giphy-image"></div>
+      </div>
 
-        <!--gif 4-->
-        <div class="card" id="gifs">
-          <div class="card-body giphy-image"></div>
-        </div> 
+      <!--gif 4-->
+      <div class="card" id="gifs">
+        <div class="card-body giphy-image"></div>
+      </div> 
         
-        <!--gif 5-->
-        <div class="card" id="gifs">
-          <div class="card-body giphy-image"></div>
-        </div>  
-
-       
-
-      </div>
-      <!--end column 2 (giphy)-->
-    </div>
-    <!--end row 2-->
+      <!--gif 5-->
+      <div class="card" id="gifs">
+        <div class="card-body giphy-image"></div>
+      </div> 
+      
   </div>
-
-
+  <!--end row 2-->
+  
 
     <!-- Create 'Info Footer' -->
     <footer class="footer">
-      <i class="fas fa-utensils"></i>  made with love (and hungry bellies)  <i class="far fa-heart"></i> 
+      <i class="fas fa-utensils" style="color:#c6c6c9"></i>   made with love (and hungry bellies)   <i class="fas fa-carrot" style="color: #f48f57"></i> 
     </footer>
     <!--footer end-->
 
