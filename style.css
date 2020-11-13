@@ -3,7 +3,7 @@ body {
     background-image: url(assets/background.jpg);
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
-    cursor: url(assets/Mushroom\ 1.cur), auto;
+    cursor: url(assets/Mushroom\ 1.cur), auto;    
     }
 
    
@@ -11,7 +11,7 @@ body {
 .navbar {
     background-color: #272f34;
     color: whitesmoke; 
-    letter-spacing: 2px;   
+    letter-spacing: .5rem;   
 }
 
 .navbar-brand,
@@ -22,7 +22,7 @@ body {
 #random {
     height: auto;
     width: auto;
-    font-size: 20px;
+    font-size: 2rem;
     background-color:  #404a4a;
     opacity: 0.92;
     color: whitesmoke;
@@ -32,11 +32,12 @@ body {
 }
 
 .card {
-    background-color:transparent;    
+    background-color:transparent;
+    border: 0rem;  
 }
 
 .title {
-    font-size: 70px;
+    font-size: 4rem;
     text-align: center;
     text-shadow: 2px 2px 20px #faf7f6, 2px 2px 20px rgb(248, 247, 247);
     font-weight: 500;
@@ -44,13 +45,13 @@ body {
 
 
 #aboutcard{    
-    font-size: 20px;
+    font-size: 1.5rem;
     text-align: center;
     background-color:  #404a4a;
     color: whitesmoke;
     margin: 0% auto;
-    margin-right: 20px;
-    border-radius: 50px;
+    margin-right: 6rem;
+    border-radius: 2rem;
     padding: 2%;
     opacity: .92;
 }
@@ -81,7 +82,7 @@ body {
 
 a {
     color: #849f82;
-    font-size: large;
+    font-size: 1.5rem;
     font-weight: 500;    
 }
 
@@ -89,14 +90,14 @@ a {
 #us {   
     height: auto;       
     text-align: center;
-    font-size: 20px;    
+    font-size: 2rem;    
     background-color: #404a4a;
     color: whitesmoke;    
     border-radius: 15px 50px 30px;
     opacity: 0.92; 
     float: left;
-    width: 20%;
-    margin: 2%;  
+    width: 30rem;
+    margin: 2rem;  
 }
 
 .card-img-top {
@@ -105,8 +106,8 @@ a {
 }
 
 .card-text {
-    height: 180px;
-    font-size: 18px;
+    height: 25rem;
+    font-size: 1.5rem;
     overflow: auto;
 }
 
@@ -118,7 +119,7 @@ ul {
     height: auto;
     width: auto;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5rem;
     background-color:  #404a4a;
     opacity: 0.92;
     color: whitesmoke;
@@ -131,7 +132,7 @@ ul {
     height: auto;
     width: auto;
     text-align: center;
-    font-size: 20px;
+    font-size: 1.5rem;
     background-color:   #404a4a;
     opacity: 0.92;
     color: whitesmoke;
@@ -147,12 +148,12 @@ ul {
 
 .search-results {
     width: 100%;
-    font-size: 20px;
+    font-size: 1.5rem;
     text-align: center;
     background-color:  #404a4a;
     opacity: 0.92;
     color: whitesmoke;
-    margin: 0px auto;
+    margin: 0rem auto;
     border-radius: 50px;
     padding: 2%;
     /* float: right; */
@@ -163,9 +164,9 @@ ul {
     text-align: center;
     background-color:#272f34;
     color: snow;
-    margin-bottom: 0px;
-    font-size: 20px; 
-    letter-spacing: 2px; 
+    margin-bottom: 0rem;
+    font-size: 1rem; 
+    letter-spacing: .5rem; 
     opacity: .8; 
 
 }
