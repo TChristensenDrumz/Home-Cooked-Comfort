@@ -120,7 +120,40 @@
             <!-- Will this use an input? -->
             <div class="card">
               <div class="card-body conversions">
-                <h5>Conversions</h5>
+                <h5>Convert Measurements</h5>
+                <!-- Input with dropdown -->
+                <div class="input-group">
+                  <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Cups</a>
+                      <a class="dropdown-item" href="#">Lbs</a>
+                      <a class="dropdown-item" href="#">Ounces</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <!-- Output with drowndown -->
+                <div class="input-group">
+                  <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Cups</a>
+                      <a class="dropdown-item" href="#">Lbs</a>
+                      <a class="dropdown-item" href="#">Ounces</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div> 
+                <br>
+                <!-- Button to Convert or would you like to convert when the units are selected? -->
+                <button class="btn btn-outline-secondary" type="button" id="button-addon1">Convert</button>
+
                 
               </div>
             </div>
