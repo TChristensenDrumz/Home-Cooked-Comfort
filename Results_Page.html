@@ -46,12 +46,13 @@
 
     <!-- Conatiner for main features -->
       <div class="container" id="main">
+        <div class="row">
           <!-- Column 1 -->
           <div class="col-md-3" id="col1">
               <!-- Create card for 'Filters' -->
               <div class="card">
                 <div class="card-body search-card">
-                  <h5>Filter Box Title<h5>
+                  <h5>Search Box<h5>
                     <!-- Create input for search -->
                     <div class="input-group mb-3">
                       <div class="input-group-prepend search-input">
@@ -61,36 +62,57 @@
                 
                 <!-- Create check boxes with other parameters -->
                 <!-- Checkbox 1 -->
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <div class="form-check text-left">
+                  <input class="form-check-input move-left" type="checkbox" value="" id="checkbox">
                   <label class="form-check-label" for="defaultCheck1">
-                    <p>Checkbox 1</p>
+                    <p>Vegetarian</p>
                   </label>
                 </div>
                <!-- Checkbox 2 -->
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <div class="form-check text-left">
+                  <input class="form-check-input move-left" type="checkbox" value="" id="checkbox">
                   <label class="form-check-label" for="defaultCheck1">
-                    <p>Checkbox 2</p>
+                    <p>Vegan</p>
                   </label>
                 </div>
                  <!-- Checkbox 3 -->
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <div class="form-check text-left">
+                  <input class="form-check-input move-left" type="checkbox" value="" id="checkbox">
                   <label class="form-check-label" for="defaultCheck1">
-                    <p>Checkbox 3</p>
+                    <p>Dairy-Free</p>
                   </label>
                 </div>
                <!-- Checkbox 4 -->
-                <div class="form-check">
-                  <input class="form-check-input" type="checkbox" value="" id="defaultCheck1">
+                <div class="form-check text-left">
+                  <input class="form-check-input move-left" type="checkbox" value="" id="checkbox">
                   <label class="form-check-label" for="defaultCheck1">
-                    <p>Checkbox 4</p>
+                    <p>Gluten-Free</p>
                   </label>
                 </div>
+              <!-- Checkbox 5 -->
+              <div class="form-check text-left">
+                <input class="form-check-input move-left" type="checkbox" value="" id="checkbox">
+                <label class="form-check-label" for="defaultCheck1">
+                  <p>Peanut-Free</p>
+                </label>
+              </div>
+              <!-- Checkbox 6 -->
+              <div class="form-check text-left">
+                <input class="form-check-input move-left" type="checkbox" value="" id="checkbox">
+                <label class="form-check-label" for="defaultCheck1">
+                  <p>Tree Nut-Free</p>
+                </label>
+              </div>
+              <!-- Checkbox 7 -->
+              <div class="form-check text-left">
+                <input class="form-check-input move-left" type="checkbox" value="" id="checkbox">
+                <label class="form-check-label" for="defaultCheck1">
+                  <p>Pescatarian</p>
+                </label>
+              </div>
 
               <!-- Create search button -->
-                <button class="btn btn-outline-secondary" type="button" id="button-addon1">Filter</button>
+                <button class="btn btn-outline-secondary" type="button" id="button-addon1">Search</button>
               </div>
             </div>
             
@@ -98,7 +120,40 @@
             <!-- Will this use an input? -->
             <div class="card">
               <div class="card-body conversions">
-                <h5>Conversions</h5>
+                <h5>Convert Measurements</h5>
+                <!-- Input with dropdown -->
+                <div class="input-group">
+                  <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Cups</a>
+                      <a class="dropdown-item" href="#">Lbs</a>
+                      <a class="dropdown-item" href="#">Ounces</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div>
+                <br>
+                <!-- Output with drowndown -->
+                <div class="input-group">
+                  <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item" href="#">Cups</a>
+                      <a class="dropdown-item" href="#">Lbs</a>
+                      <a class="dropdown-item" href="#">Ounces</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
+                    </div>
+                  </div>
+                </div> 
+                <br>
+                <!-- Button to Convert or would you like to convert when the units are selected? -->
+                <button class="btn btn-outline-secondary" type="button" id="button-addon1">Convert</button>
+
                 
               </div>
             </div>
@@ -110,14 +165,14 @@
           <!-- Create card for the main results that will open to an external webpage -->
             <div class="card">
               <div class="card-body">
-                <h5>Search Results</h5>
                 <div class="search-results">
+                  <h3>Search Results</h3>
                   <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium nulla quaerat, velit maxime nostrum quos laudantium pariatur repellendus doloremque. Atque minus repellat nemo explicabo non quas, maxime dolor vero sint?</p>
                 </div>
               </div>
             </div>
         </div>
-        
+       </div> 
         
       </div>  
       
