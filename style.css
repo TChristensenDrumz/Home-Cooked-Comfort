@@ -4,7 +4,9 @@ body {
     background-size: cover;
     font-family: 'Montserrat', sans-serif;
     cursor: url(assets/Mushroom\ 1.cur), auto;
-}
+    }
+
+   
 
 .navbar {
     background-color: #272f34;
@@ -41,7 +43,6 @@ body {
 }
 
 
-
 #aboutcard{    
     font-size: 20px;
     text-align: center;
@@ -66,7 +67,6 @@ body {
 
 }
 
-
 #gifs {
     width: auto;
     height: auto;
@@ -79,34 +79,35 @@ body {
 }
 
 
-#ourinfo {   
-    
-    margin: 0% auto;
-    align-content: center;
-    
-}
-
 a {
     color: #849f82;
     font-size: large;
     font-weight: 500;    
 }
 
-#ourcards{
-    margin: 0% auto;
-    width: auto;    
-}
 
 #us {   
     height: auto;       
     text-align: center;
-    font-size: 20px;
+    font-size: 20px;    
     background-color: #404a4a;
-    color: whitesmoke;
-    margin: 5%;
-    padding: 5%;
+    color: whitesmoke;    
     border-radius: 15px 50px 30px;
     opacity: 0.92; 
+    float: left;
+    width: 20%;
+    margin: 2%;  
+}
+
+.card-img-top {
+    padding: 2% ;
+    border-radius: 15px 50px 30px;
+}
+
+.card-text {
+    height: 180px;
+    font-size: 18px;
+    overflow: auto;
 }
 
 ul {
