@@ -12,9 +12,9 @@ const mm = String(today.getMonth() + 1).padStart(2, '0');
 const yyyy = today.getFullYear();
 var today = mm + '/' + dd + '/' + yyyy;
 
-init();
+weather();
 
-function init(){
+function weather(){
     // Make an API call using test as the city parameter
 
     // Add the city name, date, and icon to the cityDiv variable
