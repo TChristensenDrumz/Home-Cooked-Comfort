@@ -130,6 +130,19 @@ ul {
     border-radius: 15px 50px 30px 5px;
 }
 
+.search-card {
+    height: auto;
+    width: auto;
+    text-align: center;
+    font-size: 20px;
+    background-color: #363030;
+    opacity: 0.8;
+    color: whitesmoke;
+    margin: 10%;
+    margin-top: 10%;
+    border-radius: 15px 50px 30px 5px;
+}
+
 .move-left {
     width: auto;
     box-shadow: none;
