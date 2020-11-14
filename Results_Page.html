@@ -127,13 +127,12 @@
                 <div class="input-group number-input">
                   <input type="text" class="form-control" aria-label="Text input with dropdown button">
                   <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+                    <button class="btn btn-outline-secondary dropdown-toggle input-unit" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
                     <div class="dropdown-menu">
-                      <a class="dropdown-item" href="#">Cups</a>
-                      <a class="dropdown-item" href="#">Lbs</a>
-                      <a class="dropdown-item" href="#">Ounces</a>
-                      <div role="separator" class="dropdown-divider"></div>
-                      <a class="dropdown-item" href="#">Separated link</a>
+                      <a class="dropdown-cups" href="#">Cups</a>
+                      <a class="dropdown-lbs" href="#">Lbs</a>
+                      <a class="dropdown-oz" href="#">Ounces</a>
+                      
                     </div>
                   </div>
                 </div>
@@ -142,7 +141,7 @@
                 <div class="input-group">
                   <input type="text" class="form-control" aria-label="Text input with dropdown button">
                   <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+                    <button class="btn btn-outline-secondary dropdown-toggle output-unit " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
                     <div class="dropdown-menu">
                       <a class="dropdown-item" href="#">Cups</a>
                       <a class="dropdown-item" href="#">Lbs</a>
@@ -193,6 +192,8 @@
 
     <script src="script_results.js"></script>
     <!-- Tammy's test script - will remove later. -->
+    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/8.0.1/math.min.js" integrity="sha512-oK0Fdc8kV5Sd9BxvbItwqfCQmxYTHc2jw0gknG7US9slJgQ10TI9xjk+JzHQpVFplcv9B+Gsd4fiPb08p77Vqg==" crossorigin="anonymous"></script>
+    
     <script src="./convertbox_script.js"></script>
 </body>
 </html>
