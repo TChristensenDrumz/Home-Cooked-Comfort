@@ -125,27 +125,29 @@
                 <h5>Convert Measurements</h5>
                 <!-- Input with dropdown -->
                 <div class="input-group number-input">
-                  <input type="text" class="form-control" aria-label="Text input with dropdown button">
+                  <input type="text" class="form-control" id="input-value" aria-label="Text input with dropdown button">
                   <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle input-unit" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
-                    <div class="dropdown-input-menu">
-                      <a class="dropdown-cups" href="#">Cups</a>
-                      <a class="dropdown-lbs" href="#">Lbs</a>
-                      <a class="dropdown-oz" href="#">Ounces</a>
-                      
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+                    <div class="dropdown-menu" id="inputUnit">
+                      <a class="dropdown-item input-unit" href="#" id="cups">Cups</a>
+                      <a class="dropdown-item input-unit" href="#" id="tbs">Tablespoons</a>
+                      <a class="dropdown-item input-unit" href="#" id="oz">Ounces</a>
+                      <div role="separator" class="dropdown-divider"></div>
+                      <a class="dropdown-item" href="#">Separated link</a>
                     </div>
                   </div>
                 </div>
                 <br>
                 <!-- Output with drowndown -->
-                <div class="output-group number-output">
-                  <input type="text" class="form-control" aria-label="Text output with dropdown button">
-                  <div class="output-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle output-unit " type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
-                    <div class="dropdown-output-menu">
-                      <a class="dropdown-cups" href="#">Cups</a>
-                      <a class="dropdown-lbs" href="#">Lbs</a>
-                      <a class="dropdown-oz" href="#">Ounces</a>
+                <div class="input-group">
+                  <div type="text" class="form-control" id="output-value" aria-label="Text output with dropdown button"></div>
+                  <div class="input-group-append">
+                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+                    <div class="dropdown-menu">
+                      <a class="dropdown-item output-unit" href="#" id="cups">Cups</a>
+                      <a class="dropdown-item output-unit" href="#" id="tbs">Tablespoons</a>
+                      <a class="dropdown-item output-unit" href="#" id="oz">Ounces</a>
+                    
                     </div>
                   </div>
                 </div> 
@@ -190,8 +192,6 @@
 
     <script src="script_results.js"></script>
     <!-- Tammy's test script - will remove later. -->
-    <script src="https://cdnjs.cloudflare.com/ajax/libs/mathjs/8.0.1/math.min.js" integrity="sha512-oK0Fdc8kV5Sd9BxvbItwqfCQmxYTHc2jw0gknG7US9slJgQ10TI9xjk+JzHQpVFplcv9B+Gsd4fiPb08p77Vqg==" crossorigin="anonymous"></script>
-
     <script src="./convertbox_script.js"></script>
 </body>
 </html>
