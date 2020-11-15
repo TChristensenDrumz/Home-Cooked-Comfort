@@ -2,11 +2,7 @@ var inputUnit;
 var outputUnit;
 let resultValue = 0;
 
-// When a number is entered to the input
-// Then a unit input must be selected
 
-// Then a unit output must be selected
-// On click, the convert button will convert the input value to the output value
 
 $(".input-unit").click(function(){
   inputUnit = $(this).attr("id");
@@ -28,13 +24,13 @@ $(".convert-btn").click(function(){
   var outputValue = document.getElementById("output-value")
 
 
+
   // Conversion table
   if (inputUnit == "cups" && outputUnit == "cups") resultValue = inputValue;
   console.log(resultValue);
 
   if (inputUnit == "cups" && outputUnit == "tbsp") resultValue = inputValue * 16;
-  console.log(resultValue)
-  if (inputUnit == "cups" && outputUnit == "oz") outputValue = 0.393701;
+  if (inputUnit == "cups" && outputUnit == "oz") resultValue = inputValue * 8;
 
 
 
