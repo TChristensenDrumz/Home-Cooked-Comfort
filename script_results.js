@@ -68,7 +68,7 @@ function renderRecipes(response){
 // Defined variable for Conversion Box
 var inputUnit;
 var outputUnit;
-let resultValue = 0;
+let resultValue = "";
 
 // Function to select input unit
 $(".input-unit").click(function(event){
