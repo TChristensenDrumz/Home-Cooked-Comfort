@@ -33,7 +33,7 @@ function init(){
             console.log(response);
             if(response.meals[0].strSource !== ""){
                 var newListItem = $("<li>");
-                var newATag = $("<a>").attr("href", response.meals[0].strSource).attr("target", "_blank").text(response.meals[0].strMeal);
+                var newATag = $("<a>").attr("href", response.meals[0].strSource).attr("target", "_blank").text("• " + response.meals[0].strMeal);
                 $(newListItem).append(newATag);
                 $(".pop").append(newListItem);
             }
