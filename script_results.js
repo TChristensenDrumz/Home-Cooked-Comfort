@@ -74,14 +74,14 @@ let resultValue = "";
 $(".input-unit").click(function(event){
   event.preventDefault()
   inputUnit = $(this).attr("id");
-  $("#units-input").text(inputUnit);
+  $("#input").text($(this).attr("id"));
 })
 
 // Function to select output unit
 $(".output-unit").click(function(event){
   event.preventDefault()
   outputUnit = $(this).attr("id");
-  $("#units-output").text(outputUnit);
+  $("#output").text($(this).attr("id"));
 })
 
 // Convert Button function
