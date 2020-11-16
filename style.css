@@ -146,6 +146,10 @@ i.fas.fa-crown {
     border-radius: 15px 50px 30px 5px;
 }
 
+#input-value {
+    text-align: center;
+}
+
 .move-left {
     width: auto;
     box-shadow: none;
