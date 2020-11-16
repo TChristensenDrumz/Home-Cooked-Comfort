@@ -90,7 +90,7 @@ a {
 #us {   
     height: auto;       
     text-align: center;
-    font-size: 2rem;    
+    font-size: 1.5rem;    
     background-color: #404a4a;
     color: whitesmoke;    
     border-radius: 15px 50px 30px;
@@ -107,7 +107,7 @@ a {
 
 .card-text {
     height: 25rem;
-    font-size: 1.5rem;
+    font-size: 1.2rem;
     overflow: auto;
 }
 
