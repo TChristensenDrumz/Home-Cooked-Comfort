@@ -48,30 +48,31 @@
 
       <br>
       <br>
-
+      <!-- Weather Card -->
       <div class="card">
         <div class="card-body weather-card">
-          <h4>Weather Today</h4>
-
+          <h3 style="padding:15px">Local Weather</h3>
+      <!-- Enter the Name of City -->
           <div class="row">
-            <input type="text" class="searchInput" placeholder="Test">
+            <input type="text" class="searchInput" placeholder="Name of City">
             <button type="submit" class="searchBtn">
               <i class="fas fa-search"></i>
             </button>
-
+          </div>
+      <!-- Generates City, Date, Time and Temp. -->
             <div style="text-align:left" class="forecast">
               <div class="row">
-                <p class="cityName">City Name</p>
-                <h1 class="currentDate"></h1>
-                <img class="weatherIcon"></img>
+                <h4 style="padding:15px" class="cityName">City Name</h4>
+                <p class="currentDate"></p>
               </div>
               <div class="row">
-                <p class="temp">Temperature:</p>
+                  <h4 style="padding:15px" class="temp">Temperature:</h4>
+                <!-- <img class="weatherIcon"></img> -->
               </div>
-            </div>
-
+             </div>
           </div>
         </div>
+
       </div>
     </div>
 
