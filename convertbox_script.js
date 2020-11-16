@@ -3,13 +3,16 @@ var outputUnit;
 let resultValue = 0;
 
 
-
-$(".input-unit").click(function(){
+// Function to select input unit
+$(".input-unit").click(function(event){
+  event.preventDefault()
   inputUnit = $(this).attr("id");
   console.log(inputUnit)
 })
 
-$(".output-unit").click(function(){
+// Function to select output unit
+$(".output-unit").click(function(event){
+  event.preventDefault()
   outputUnit = $(this).attr("id");
   console.log(outputUnit)
 })
