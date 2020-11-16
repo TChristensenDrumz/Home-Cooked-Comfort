@@ -115,6 +115,11 @@ ul {
     color:  #404a4a;
 }
 
+i.fas.fa-crown {
+    color: #faca6a;
+}
+
+
 .conversions {
     height: auto;
     width: auto;
