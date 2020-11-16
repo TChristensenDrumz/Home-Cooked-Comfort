@@ -35,7 +35,6 @@ function renderWeatherData() {
 
 
 
-
 function getWeather(test) {
     // Make an API call using test as the city parameter
     let queryUrl = `https://api.openweathermap.org/data/2.5/weather?q=${test}&APPID=${apiKey}`;
