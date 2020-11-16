@@ -10,11 +10,11 @@ let tempEl = $(".temp");
 let searchBtn = $(".searchBtn");
 let searchInput = $(".searchInput");
 
-var today = new Date();
-const dd = String(today.getDate()).padStart(2, '0');
-const mm = String(today.getMonth() + 1).padStart(2, '0');
-const yyyy = today.getFullYear();
-var today = mm + '/' + dd + '/' + yyyy;
+// var today = new Date();
+// const dd = String(today.getDate()).padStart(2, '0');
+// const mm = String(today.getMonth() + 1).padStart(2, '0');
+// const yyyy = today.getFullYear();
+// var today = mm + '/' + dd + '/' + yyyy;
 
 $(searchBtn).on("click", function (e) {
     e.preventDefault();
@@ -22,7 +22,6 @@ $(searchBtn).on("click", function (e) {
         alert("You must enter a city");
         return;
     }
-    console.log("clicked button")
     getWeather(searchInput.val());
 });
 
@@ -32,22 +31,26 @@ function renderWeatherData() {
     currentDateEl.text('(${today})');
     tempEl.text('Temperature: ${cityTemp} °F');
     weatherIconEl.attr("src", cityWeatherIcon);
-
-
 }
 
-function getWeather() {
+
+
+
+function getWeather(test) {
     // Make an API call using test as the city parameter
-    let queryUrl = "https://api.openweathermap.org/data/2.5/weather?q=${test}&APPID=${apiKey}";
+    let queryUrl = `https://api.openweathermap.org/data/2.5/weather?q=${test}&APPID=${apiKey}`;
     $.ajax({
         url: queryUrl,
         method: "GET"
     })
         .then(function (weatherData) {
-            $(cityName).text(weatherData.name);
-            $(currentDate).text(weatherData.today);
-            $(cityTemp).text(weatherData.main.temp);
-            $(cityWeatherIconName).text(weatherData[0].icon);
+
+            var tempF = Math.round((weatherData.main.temp - 273.15) * 1.80 + 32);
+
+            $(cityNameEl).text(weatherData.name);
+            $(currentDateEl).text(new Date().toLocaleString());
+            $(tempEl).text(`Temperature: ${tempF} °F`);
+            $(weatherIconEl).attr("src", `http://openweathermap.org/img/wn/${weatherData.weather[0].icon}@2x.png`);
 
             $(cityDiv).append(cityNameEl);
             $(cityDiv).append(currentDateEl);
