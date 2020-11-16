@@ -1,7 +1,7 @@
+// Defined variable for Conversion Box
 var inputUnit;
 var outputUnit;
 let resultValue = 0;
-
 
 // Function to select input unit
 $(".input-unit").click(function(event){
@@ -17,6 +17,7 @@ $(".output-unit").click(function(event){
   console.log(outputUnit)
 })
 
+// Convert Button function
 $(".convert-btn").click(function(){
  
   console.log("The convert button was clicked.");
@@ -25,8 +26,6 @@ $(".convert-btn").click(function(){
   var inputValue = JSON.parse(document.getElementById("input-value").value);
   // // // Define variable for unit output
   var outputValue = document.getElementById("output-value")
-
-
 
   // Conversion table
   // Cups converts to selected unit
