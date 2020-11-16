@@ -41,163 +41,135 @@
       <div class="col-md-3" id="col1">
 
       <!-- Create card for 'Filters' -->
-        <div class="card">
-          <div class="card-body search-card">
-            <h5>Search Box<h5>
-            <!-- Create input for search -->
-            <div class="input-group mb-3">
-              <div class="input-group-prepend search-input">
-              </div>
-                <input type="text" class="form-control" id="user-input" placeholder="">
-            </div>                
-            <!-- Create check boxes with other parameters -->
-
-            <!-- Checkbox 1 -->
-            <div class="form-check text-left">
-              <input class="form-check-input move-left" type="checkbox" value="" id="vegetarian">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Vegetarian</p>
-              </label>
+      <div class="card">
+        <div class="card-body search-card">
+          <h5>Search Box<h5>
+          <!-- Create input for search -->
+          <div class="input-group mb-3">
+            <div class="input-group-prepend search-input">
             </div>
+            <input type="text" class="form-control" id="user-input" placeholder="">
+          </div>                
+          <!-- Create check boxes with other parameters -->
 
-            <!-- Checkbox 2 -->
-            <div class="form-check text-left">
-              <input class="form-check-input move-left" type="checkbox" value="" id="vegan">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Vegan</p>
-              </label>
-            </div>
+          <!-- Checkbox 1 -->
+          <div class="form-check text-left">
+            <input class="form-check-input move-left" type="checkbox" value="" id="vegetarian">
+            <label class="form-check-label" for="defaultCheck1">
+              <p>Vegetarian</p>
+            </label>
+          </div>
 
-            <!-- Checkbox 3 -->
-            <div class="form-check text-left">
-              <input class="form-check-input move-left" type="checkbox" value="" id="dairy-free">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Dairy-Free</p>
-              </label>
-            </div>
+          <!-- Checkbox 2 -->
+          <div class="form-check text-left">
+            <input class="form-check-input move-left" type="checkbox" value="" id="vegan">
+            <label class="form-check-label" for="defaultCheck1">
+              <p>Vegan</p>
+            </label>
+          </div>
 
-            <!-- Checkbox 4 -->
-            <div class="form-check text-left">
-              <input class="form-check-input move-left" type="checkbox" value="" id="gluten-free">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Gluten-Free</p>
-              </label>
-            </div>
+          <!-- Checkbox 3 -->
+          <div class="form-check text-left">
+            <input class="form-check-input move-left" type="checkbox" value="" id="dairy-free">
+            <label class="form-check-label" for="defaultCheck1">
+              <p>Dairy-Free</p>
+            </label>
+          </div>
 
-            <!-- Checkbox 5 -->
-            <div class="form-check text-left">
-              <input class="form-check-input move-left" type="checkbox" value="" id="peanut-free">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Peanut-Free</p>
-              </label>
-            </div>
+          <!-- Checkbox 4 -->
+          <div class="form-check text-left">
+            <input class="form-check-input move-left" type="checkbox" value="" id="gluten-free">
+            <label class="form-check-label" for="defaultCheck1">
+              <p>Gluten-Free</p>
+            </label>
+          </div>
+
+          <!-- Checkbox 5 -->
+          <div class="form-check text-left">
+            <input class="form-check-input move-left" type="checkbox" value="" id="peanut-free">
+            <label class="form-check-label" for="defaultCheck1">
+              <p>Peanut-Free</p>
+            </label>
+          </div>
 
             <!-- Checkbox 6 -->
-            <div class="form-check text-left">
-              <input class="form-check-input move-left" type="checkbox" value="" id="tree-nut-free">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Tree Nut-Free</p>
-              </label>
-            </div>
-
-            <!-- Checkbox 7 -->
-            <div class="form-check text-left">
-              <input class="form-check-input move-left" type="checkbox" value="" id="pescatarian">
-              <label class="form-check-label" for="defaultCheck1">
-                <p>Pescatarian</p>
-              </label>
-            </div>
-
-            <!-- Create search button -->
-            <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
+          <div class="form-check text-left">
+            <input class="form-check-input move-left" type="checkbox" value="" id="tree-nut-free">
+            <label class="form-check-label" for="defaultCheck1">
+              <p>Tree Nut-Free</p>
+            </label>
           </div>
-        </div>            
 
-            <!-- Create card for "Conversions" -->
-            <!-- Will this use an input? -->
-            <div class="card">
-              <div class="card-body conversions">
-                <h5>Convert Measurements</h5>
-                <!-- Input with dropdown -->
-                <div class="input-group number-input">
-                  <input type="text" class="form-control" id="input-value" aria-label="Text input with dropdown button">
-                  <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
-                    <div class="dropdown-menu" id="inputUnit">
-                      <a class="dropdown-item input-unit" href="#" id="cups">Cups</a>
-                      <a class="dropdown-item input-unit" href="#" id="oz">Ounces</a>
-                      <a class="dropdown-item input-unit" href="#" id="mL">Milliliter</a>
-                      <a class="dropdown-item input-unit" href="#" id="L">Liter</a>
-                      <a class="dropdown-item input-unit" href="#" id="pt">Pint</a>
-                      <a class="dropdown-item input-unit" href="#" id="qt">Quart</a>
-                      <a class="dropdown-item input-unit" href="#" id="tbsp">Tablespoons</a>
-                      <a class="dropdown-item input-unit" href="#" id="tsp">Teaspoon</a>
-                      <a class="dropdown-item input-unit" href="#" id="g">Gram</a>
-                      <a class="dropdown-item input-unit" href="#" id="kg">Kilogram</a>
-                      <a class="dropdown-item input-unit" href="#" id="mg">Milligram</a>
+          <!-- Checkbox 7 -->
+          <div class="form-check text-left">
+            <input class="form-check-input move-left" type="checkbox" value="" id="pescatarian">
+            <label class="form-check-label" for="defaultCheck1">
+              <p>Pescatarian</p>
+            </label>
+          </div>
+
+          <!-- Create search button -->
+          <button class="btn btn-outline-secondary" type="button" id="search">Search</button>
+        </div>
+      </div>            
+
+      <!-- Create card for "Conversions" -->
+      <!-- Will this use an input? -->
+      <div class="card">
+        <div class="card-body conversions">
+          <h5>Convert Measurements</h5>
+          <!-- Input with dropdown -->
+          <div class="input-group number-input">
+            <input type="text" class="form-control" id="input-value" aria-label="Text input with dropdown button">
+            <div class="input-group-append">
+              <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
+              <div class="dropdown-menu" id="inputUnit">
+                <a class="dropdown-item input-unit" href="#" id="cups">Cups</a>
+                <a class="dropdown-item input-unit" href="#" id="oz">Ounces</a>
+                <a class="dropdown-item input-unit" href="#" id="mL">Milliliter</a>
+                <a class="dropdown-item input-unit" href="#" id="L">Liter</a>
+                <a class="dropdown-item input-unit" href="#" id="pt">Pint</a>
+                <a class="dropdown-item input-unit" href="#" id="qt">Quart</a>
+                <a class="dropdown-item input-unit" href="#" id="tbsp">Tablespoons</a>
+                <a class="dropdown-item input-unit" href="#" id="tsp">Teaspoon</a>
+                <a class="dropdown-item input-unit" href="#" id="g">Gram</a>
+                <a class="dropdown-item input-unit" href="#" id="kg">Kilogram</a>
+                <a class="dropdown-item input-unit" href="#" id="mg">Milligram</a>
                       
-                    </div>
-                  </div>
-                </div>
-                <br>
-                <!-- End Input downdown -->
-
-                <!-- Output with drowndown -->
-                <div class="input-group">
-                  <div type="text" class="form-control" id="output-value" aria-label="Text output with dropdown button"></div>
-                  <div class="input-group-append">
-                    <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
-                    <div class="dropdown-menu">
-                      <a class="dropdown-item output-unit" href="#" id="cups">Cups</a>
-                      <a class="dropdown-item output-unit" href="#" id="oz">Ounces</a>
-                      <a class="dropdown-item output-unit" href="#" id="mL">Milliliter</a>
-                      <a class="dropdown-item output-unit" href="#" id="L">Liter</a>
-                      <a class="dropdown-item output-unit" href="#" id="pt">Pint</a>
-                      <a class="dropdown-item output-unit" href="#" id="qt">Quart</a>
-                      <a class="dropdown-item output-unit" href="#" id="tbsp">Tablespoons</a>
-                      <a class="dropdown-item output-unit" href="#" id="tsp">Teaspoon</a>
-                      <a class="dropdown-item output-unit" href="#" id="g">Gram</a>
-                      <a class="dropdown-item output-unit" href="#" id="kg">Kilogram</a>
-                      <a class="dropdown-item output-unit" href="#" id="mg">Milligram</a>
-                    </div>
-                  </div>
-                </div> 
-                <br>
-                <!-- Button to Convert or would you like to convert when the units are selected? -->
-                <button class="btn btn-outline-secondary convert-btn" type="button" id="button-addon1">Convert</button>
-
-                
-
               </div>
             </div>
+          </div>
+          <br>
+          <!-- End Input downdown -->
 
-            <br>
-
-            <!-- Output with drowndown -->
-            <div class="input-group">
-              <input type="text" class="form-control" aria-label="Text input with dropdown button">
+          <!-- Output with drowndown -->
+          <div class="input-group">
+            <div type="text" class="form-control" id="output-value" aria-label="Text output with dropdown button"></div>
               <div class="input-group-append">
                 <button class="btn btn-outline-secondary dropdown-toggle" type="button" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">Units</button>
                 <div class="dropdown-menu">
-                  <a class="dropdown-item" href="#">Cups</a>
-                  <a class="dropdown-item" href="#">Lbs</a>
-                  <a class="dropdown-item" href="#">Ounces</a>
-                  <div role="separator" class="dropdown-divider"></div>
-                  <a class="dropdown-item" href="#">Separated link</a>
+                  <a class="dropdown-item output-unit" href="#" id="cups">Cups</a>
+                  <a class="dropdown-item output-unit" href="#" id="oz">Ounces</a>
+                  <a class="dropdown-item output-unit" href="#" id="mL">Milliliter</a>
+                  <a class="dropdown-item output-unit" href="#" id="L">Liter</a>
+                  <a class="dropdown-item output-unit" href="#" id="pt">Pint</a>
+                  <a class="dropdown-item output-unit" href="#" id="qt">Quart</a>
+                  <a class="dropdown-item output-unit" href="#" id="tbsp">Tablespoons</a>
+                  <a class="dropdown-item output-unit" href="#" id="tsp">Teaspoon</a>
+                  <a class="dropdown-item output-unit" href="#" id="g">Gram</a>
+                  <a class="dropdown-item output-unit" href="#" id="kg">Kilogram</a>
+                  <a class="dropdown-item output-unit" href="#" id="mg">Milligram</a>
                 </div>
               </div>
-            </div>
-
-            <br>
-
-            <!-- Button to Convert or would you like to convert when the units are selected? -->
-            <button class="btn btn-outline-secondary" type="button" id="button-addon1">Convert</button>
-                
-          </div>
-        </div>            
+          </div> 
+          <br>
+          <!-- Button to Convert or would you like to convert when the units are selected? -->
+          <button class="btn btn-outline-secondary convert-btn" type="button" id="button-addon1">Convert</button>
+        </div>
       </div>
+    </div>
 
-      <!-- Column 2 -->
+    <!-- Column 2 -->
       <div class="col-md-9">
       <!-- Create card for the main results that will open to an external webpage -->
         <div class="card">
@@ -208,7 +180,7 @@
           </div>
         </div>
       </div>
-
+      
     </div>        
   </div>  
       
