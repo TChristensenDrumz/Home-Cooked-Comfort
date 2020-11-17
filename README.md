@@ -41,6 +41,9 @@ We have created a simple recipe search to help add some variety to your quaranti
 - This page was added to give the users a little more background behind the developers. Our background, hobbies and our relationship with food. Here, we have included links to contact us, our Github, and our favorite recipes.
 <br>
 
+#### Responsiveness:
+- All three pages are responsive with mobile and various desktop browser sizes.
+
 ## Credits
 https://imagecolorpicker.com/en/
 <br>
@@ -55,5 +58,7 @@ https://www.themealdb.com/
 https://getopenweathermap.org/api
 <br>
 https://giphy.com/
+
 ## Link
 https://tchristensendrumz.github.io/Home-Cooked-Comfort/
+https://github.com/TChristensenDrumz/Home-Cooked-Comfort
